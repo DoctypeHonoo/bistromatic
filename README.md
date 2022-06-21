@@ -15,21 +15,13 @@ La **Bistromatic** est un projet de début d'année à Epitech, il s'effectue en
 
 ## Description :
 
-Le deux joueurs doivent se connecter grâce au PID du premier joueur puis le jeu se lance, entre chaque tour, les joueurs doivent avoir le terrain affiché 2 fois, avec d'un côté leurs bâteaux et les coups râtés ou réussis de leur adversaire, et de l'autre côté, un terrain sans bâteau avec leurs propres coups râtés et réussis.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174827702-54f12637-4eb7-49fc-8d1d-730814a30b71.png">
-  <img src="https://user-images.githubusercontent.com/91092610/174829629-1b7d3370-e161-4767-b703-3f96de20b1b4.png">
-</p>
 
 
 ---
 
 ## Fonctions Autorisées : 
 
-- open, close, read, write, lseek, malloc, free
-- getpid, kill, signal, sigaction, sigemptyset
-- setcontext, getcontext, usleep, nanosleep
-- pause, getline, fopen, fclose
+- read, write, malloc, free, exit
 
 ---
 
@@ -37,22 +29,17 @@ Le deux joueurs doivent se connecter grâce au PID du premier joueur puis le jeu
 
 Ouvrez un terminal et dirigez vous ou vous souhaitez que le projet soit installé, puis exécutez les commandes suivantes : 
 ```bash
-$ git clone git@github.com:DoctypeHonoo/navy.git
-$ cd navy
+$ git clone git@github.com:DoctypeHonoo/bistromatic.git
+$ cd bistromatic
 $ make
 ```
-Joueur 1 :
+Une fois compilé, le binaire se trouvera à la racine du projet, et il vous faudra l'utiliser comme ceci :
 ```bash
-$ ./navy fichier_position
+$ echo Calcul | ./calc Base Operateurs Longueur
 ```
-<img src="https://user-images.githubusercontent.com/91092610/174832174-558e3cbe-f660-4988-8336-827b6394e9c1.png">
-
-Joueur 2 :
-```bash
-$ ./navy PID_Joueur_1 fichier_position
-```
-<img src="https://user-images.githubusercontent.com/91092610/174832311-ed529100-feb5-4526-b947-bbf7510257ec.png">
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91092610/174844033-bfef5640-1915-44c3-976e-845a6a91514d.png"/>
+</p>
 ---
 
 ## Comment l'utiliser ? : 
