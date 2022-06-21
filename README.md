@@ -9,13 +9,13 @@
 
 ## Motivation : 
 
-La **Bistromatic** est un projet de début d'année à Epitech, il s'effectue en groupe de trois. Le but est de créer une calculatrice qui va permettre de faire des opérations infini en interprétant les calculs dans les chaînes de caractères pour ne pas être limité par la taille des integers.
+La **Bistromatic** est un projet de début d'année à Epitech, il s'effectue en groupe de trois. Il est le dernier projet d'une série de trois projet dans le but de créer une calculatrice. Il suit le InfinAdd et le Evalexpr.
 
 ---
 
 ## Description :
 
-Le but de ce projet est donc de créer une calculatrice pour nombres infinis qui peut-être utilisé avec n'importe quel base, et dont les opérateurs peuvent être modifié. 
+Le but de ce projet est donc de créer une calculatrice qui interprête les nombres dans des chaînes de caractères afin de ne pas être limité par le maximum integer et donc de pouvoir faire des calculs infini. De plus il peut-être utilisé avec n'importe quel base, et les opérateurs peuvent être modifié. 
 
 ---
 
