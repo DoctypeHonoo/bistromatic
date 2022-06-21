@@ -44,7 +44,6 @@ $ echo Calcul | ./calc Base Operateurs Longueur
 
 ## Comment l'utiliser ? : 
 
-Le premier joueur doit lancer le programme en indiquant son fichier de position de bateau dans la ligne de l'execution du binaire, quand au second joueur, il doit inscrire avant ses positions, le PID du premier joueur, donné lors du lancement de la commande.
-![image](https://user-images.githubusercontent.com/91092610/174833486-a7b48464-fda2-405f-912c-8fd53e112580.png)
-![image](https://user-images.githubusercontent.com/91092610/174833586-2d946769-497f-4655-96a4-f39091ce527b.png)
-Cependant notre Navy ne dispose malheureusement pas encore du jeu en lui même, le jeu ne se lance donc pas après la connexion des joueurs.
+La commande echo doit être utilisé en même temps que le binaire du programme séparé par un pipe "|". Le echo en premier avec comme arguments le calcul demandé, puis pour les arguments lors de l'exécution du binaire, l'utilisateur devra fournir la base (ex: "0123456789"), ainsi que les opérateurs (ex: "()+-\*/%") et pour finir la longueur du calcul donner avec le echo.
+![image](https://user-images.githubusercontent.com/91092610/174857243-9dcd8ab3-cf45-4ea0-be7c-46704f25741c.png)
+![image](https://user-images.githubusercontent.com/91092610/174857570-c836307c-550d-4c50-9b6e-85e4fe0ce0df.png)
