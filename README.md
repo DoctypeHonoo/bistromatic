@@ -15,7 +15,7 @@ La **Bistromatic** est un projet de début d'année à Epitech, il s'effectue en
 
 ## Description :
 
-
+Le but de ce projet est donc de créer une calculatrice pour nombres infinis qui peut-être utilisé avec n'importe quel base, et dont les opérateurs peuvent être modifié. 
 
 ---
 
